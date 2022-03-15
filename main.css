@@ -1,0 +1,308 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+    font-family: 'Quattrocento Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+h1, h2, h3,h4,h5,h6{
+    font-family: 'Alegreya Sans', Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.listreset{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.mainheader .desktop{
+    display: none;
+}
+.mainheader .mobile{
+    text-align: center;
+}
+.topnav #Mylinks{
+    display: none;
+}
+.topnav #Mylinks a{
+    display: block;
+    margin: 0 auto;
+}
+.topnav a{
+    color: #000;
+    font-size: 17px;
+    padding: 9px;
+    display: inline-block;
+}
+.topnav a.icon{
+    background-color: #ddd;
+    margin-top: 20px;
+    width: 36px;
+    height: 34px;
+    border-radius: 6px;
+    padding-top: 9px;  
+}
+.maintitle{
+    text-align: center;
+    margin-top: 60px;
+}
+.maintitle .maintitle-heading {
+    font-size: 48px;
+    color: #000;
+    font-family: "Alegreya Sans", Arial, Helvetic, sans-serif;
+    font-weight: 400px;
+}
+.maintitle .maintitle-owner{
+    margin-top:20px;
+    color: #9c9c9c;
+    font-size:22px;
+    margin: 21px 0 75px 0;
+    letter-spacing: 0.3px;
+}
+.mainsection{
+    margin: 0 10px;
+}
+.mainheading{
+    border-top: 1px solid #9c9c9c;
+}
+.line{
+    border-top: 3px solid #000;
+    width: 40px;
+}
+.mainsection h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-weight: 500;  
+}
+
+.mainsection .mainimg img{
+    width: 100%;
+}
+.maininf p{
+    margin-bottom: 25px;
+}
+.mainp{
+    font-style: italic;
+    font-weight: 500;
+}
+.maininf .mainp .mains {
+    text-transform: uppercase;
+    
+}
+.text p{
+  margin:50px auto;
+  font-style: italic;
+  font-weight: 400;
+  
+}
+
+.mainsectionone{
+    margin-left:10px;
+    margin-right:10px;
+}
+.mainheadingone{
+    border-top: 1px solid #9c9c9c;
+}
+.mainsectionone .mainheadingone h3{
+    margin:10px 0 15px 0;
+    font-style: italic;
+    font-size:20px;
+    font-weight: 500;
+    
+}
+.mainsectionone .mainheadingone p{
+    font-style: italic;
+    font-weight: 500;
+    
+}
+.mainsecond{
+    margin-left: 10px;
+}
+.regards{
+    margin: 50px auto 150px auto;
+    
+}
+.regards p{
+    font-style: italic;
+    font-weight: 400;
+}
+.regards h2{
+    font-style: italic;
+    font-weight: 400;
+    font-family: 'Alegreya Sans', Arial, Helvetica, sans-serif;
+     
+}
+aside{
+    display:none;
+}
+.foot{
+    text-align: center;
+}
+.foot h4{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+.foot p{
+    color: #9c9c9c;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.visitors{
+    display: none;
+}
+.counter{
+    display: none;
+}
+.footer{
+    border-top: 1px solid #000;
+}
+.footer p{
+    text-align: center;
+    text-transform: uppercase;
+    color: #9c9c9c;
+    margin: 20px auto;
+    letter-spacing: 0.8px;
+    font-style: italic;
+    font-weight: 400;
+    
+}
+/*media query*/
+@media screen and (min-width: 724px){
+    .mainsection{
+        width: 75%;
+    }
+    .mainsection .mainimg img{
+        width: 50%;
+        float: left;
+        margin-right: 20px;
+    }
+    .mainsectionone{
+        width: 75%;
+    }
+    .foot h4{
+        text-align: left;
+        margin-left: 100px;
+    }
+    .foot p{
+        text-align: left;
+        margin-left: 150px;
+    }
+    
+}
+@media screen and (min-width: 768px){
+    .mainheader{
+        text-align: center;
+    }
+    .mainheader .desktop{    
+     display:block;
+     margin-top: 10px;
+     }
+     .mainheader .mobile{    
+     display:none;
+     
+     }
+    
+     .mainheader nav ul li {
+        display: inline;
+        margin: 0 15px;
+        line-height: 2;
+        font-style: italic;
+        font-weight: 400;  
+     }
+     li.active{
+        border-bottom: 2px solid #9c9c9c;
+        padding-bottom: 10px;
+     }
+     a{
+        color:#9c9c9c;
+     }
+     aside{
+        display: block;
+        border-top: 1px solid #000;
+        width: 25%;
+        float: left;
+        width: 25%
+     }
+     .contact h4{
+        text-transform: uppercase;
+        margin: 10px auto;
+        font-weight: 500;
+     }
+     .socialmedia{
+        cursor: pointer;
+     }
+     .socialmedia img:hover{
+        opacity: .6;
+     }
+     .socialmedia img:not(last-child){
+        margin-right: 8px;
+     }
+     .web p{
+      font-style: italic;
+      font-weight: 400;
+      margin-bottom: 10px;
+     }
+     .btn{
+        width: 150px;
+        height: 35px;
+     }
+     main{
+        float:left;
+        margin-top: 25px;
+        }
+        main{
+        float:left;
+        width: 75%;
+        }
+        .mainsection{
+            width:95%
+            }
+        .clr{
+            clear: both;
+        }
+       .mainfooter .footerfoot .footerwrapp .visitors,
+       .mainfooter .footerfoot .footerwrapp .counter{
+        display: inline-block;
+        text-align:center;
+       }
+       .mainfooter .footerfoot{
+        position:relative;
+       }
+       .mainfooter .footerfoot .foot{
+        position: absolute;
+        top:-55px;
+        left:-90px;
+       }
+       .mainfooter .footerfoot .footerwrapp{
+        position: absolute;
+        top:-50px;
+        right:20px;
+       }
+        .visitors{
+         text-transform: uppercase;
+         color: #9c9c9c;
+        }
+        .counter{
+         background-color: #000;
+         color: #ffffff;
+         height: 20px;
+         width: 80px;
+         border-radius: 5px;
+         padding:2px;
+        }
+        @media screen and (min-width: 991px){
+         .wrapp,
+         .mainfooter .footerfoot{
+            width: 940px;
+            margin:0 auto;
+        }
+}
